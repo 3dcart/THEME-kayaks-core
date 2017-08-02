@@ -1,0 +1,480 @@
+<section id="home" class="home-page-content page-content">
+    
+    <section class="container">
+        <!--START: home_carousel-->
+        <section class="homepage-slider">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="homeCarousel fullwidth-slider flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]">
+                        <ul class="slides">
+                            <!--START: carousel-->
+                            <li><a href="[link]"><img src="[image]" alt="" /></a></li>
+                            <!--END: carousel-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END: home_carousel-->
+
+        <section class="row2">
+
+            <!--START: LEFT_BAR-->
+            <aside id="leftBar" class="col-md-3 hidden-sm hidden-xs">
+                <!--START: FRAME_BYPRICE-->
+                <div id="modPrice" class="sidebar-widget">
+                    <h4 class="widget-header">[frame_byprice]</h4>
+                    <div class="widget-body">
+                        <ul>
+                            <!--START: byprice_format-->
+                            <li><a href="search_groups.asp?keyword=[id]&byprice=[id]" class="subcat">[title]</a></li>
+                            <!--END: byprice_format-->
+                        </ul>
+                    </div>
+                </div>
+                <!--END: FRAME_BYPRICE-->
+                <!--START: FRAME_MANUFACTURER-->
+                <div id="modManufacturer" class="sidebar-widget">
+                    <h4 class="widget-header">[frame_manufacturer]</h4>
+                    <div class="widget-body">
+                        <form name="mfg" id="mfg" method="get" action="search_groups.asp">
+                            <div class="manf-select">
+                                <select name="manf" onchange="this.form.submit();" class="form-control">
+                                    <option value="0" selected="selected">Manufacturer</option>
+                                    <!--START: manufacturer_format-->
+                                    <option value="[mfgid]">[manufacturer]</option>
+                                    <!--END: manufacturer_format-->
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--END: FRAME_MANUFACTURER-->
+                <!--START: LEFT_BANNER-->
+                <div id="leftBanner" class="sidebar-widget">[LEFT_BANNER]</div>
+                <!--END: LEFT_BANNER-->
+            </aside>
+            <!--END: LEFT_BAR-->
+
+            <section class="col-md-9 cat-items-grid">
+
+                <!--START: CATEGORY_HEADER-->
+                <section class="category-header">[CONTENT]</section>
+                <!--END: CATEGORY_HEADER-->
+                <!--START: TOP_SELLERS_BLOCK-->
+                <section class="products-section">
+                    <div class="container">
+                        <h2 class="page_heading"><span>[frame_top-sellers]</span></h2>
+                        <div class="product-items product-items-3">
+                            <!--START: topsellers-->
+                            <!--START: topsellers_topitem-->
+                            <div class="product-item" data-catalogid="[catalogid]" data-ajaxcart="1" data-addcart-callback="addcart_callback">
+                                <div class="img">
+                                    <a href="product.asp?itemid=[catalogid]">
+                                        <img src="[thumbnail]" alt="[name]" class="img-responsive" />
+                                    </a>
+                                    <!--START: quickview-->
+                                    <button class="quickview" data-toggle="modal">Quick View</button>
+                                    <!--END: quickview-->
+                                </div>
+                                <div class="name">
+                                    <a href="product.asp?itemid=[catalogid]">[name]</a>
+                                </div>
+
+                                <div class="price">
+                                    <!--START: ITEMPRICE-->
+                                    <span class="regular-price">[ITEMPRICE]</span>
+                                    <!--END: ITEMPRICE-->
+                                    <!--START: SALEPRICE-->
+                                    <del class="regular-price">[ITEMPRICE]</del>
+                                    <span class="sale-price">[ITEMSALEPRICE]</span>
+                                    <span class="on-sale-badge">[product_sale]</span>
+                                    <!--END: SALEPRICE-->
+                                </div>
+
+                                <div class="reviews">
+                                    <!--START: product_review-->
+                                    <!--START: product_review_average-->
+                                    <span class="reviews-stars rating-[review_average]"></span> <span class="reviews-count">([review_count])</span>
+                                    <!--END: product_review_average-->
+                                    <!--END: product_review-->
+                                </div>
+
+                                <div class="action">
+                                    <a href="add_cart.asp?quick=1&amp;item_id=[catalogid]" class="add-to-cart btn btn-default">
+                                        <span class="buyitlink-text">[category_buyitlink]</span>
+                                        <span class="ajaxcart-loader icon-spin2 animate-spin"></span>
+                                        <span class="ajaxcart-added icon-ok"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--END: topsellers_topitem-->
+                            <!--START: topsellers_item-->
+                            <div class="product-item" data-catalogid="[catalogid]" data-ajaxcart="1" data-addcart-callback="addcart_callback">
+                                <div class="img">
+                                    <a href="product.asp?itemid=[catalogid]">
+                                        <img src="[thumbnail]" alt="[name]" class="img-responsive" />
+                                    </a>
+                                    <!--START: quickview-->
+                                    <button class="quickview" data-toggle="modal">Quick View</button>
+                                    <!--END: quickview-->
+                                </div>
+                                <div class="name">
+                                    <a href="product.asp?itemid=[catalogid]">[name]</a>
+                                </div>
+
+                                <div class="price">
+                                    <!--START: ITEMPRICE-->
+                                    <span class="regular-price">[ITEMPRICE]</span>
+                                    <!--END: ITEMPRICE-->
+                                    <!--START: SALEPRICE-->
+                                    <del class="regular-price">[ITEMPRICE]</del>
+                                    <span class="sale-price">[ITEMSALEPRICE]</span>
+                                    <span class="on-sale-badge">[product_sale]</span>
+                                    <!--END: SALEPRICE-->
+                                </div>
+
+                                <div class="reviews">
+                                    <!--START: product_review-->
+                                    <!--START: product_review_average-->
+                                    <span class="reviews-stars rating-[review_average]"></span> <span class="reviews-count">([review_count])</span>
+                                    <!--END: product_review_average-->
+                                    <!--END: product_review-->
+                                </div>
+
+                                <div class="action">
+                                    <a href="add_cart.asp?quick=1&amp;item_id=[catalogid]" class="add-to-cart btn btn-default">
+                                        <span class="buyitlink-text">[category_buyitlink]</span>
+                                        <span class="ajaxcart-loader icon-spin2 animate-spin"></span>
+                                        <span class="ajaxcart-added icon-ok"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--END: topsellers_item-->
+                            <!--END: topsellers-->
+                        </div>
+                    </div>
+                </section>
+                <!--END: TOP_SELLERS_BLOCK-->
+
+                <section class="products-section">
+                    <div class="container">
+                        <!--START: FEATURE_MENU-->
+                        <h2 class="page_heading"><span>[category_Header-specials]</span></h2>
+
+                        <!--START: CATEGORY_ITEMS-->
+                        <div class="product-items product-items-[product-cols-number]">
+                            <!--START: ITEM_TEMPLATE_0-->
+                            [product_items]
+                            <!--END: ITEM_TEMPLATE_0-->
+                        </div>
+                        <!--END: CATEGORY_ITEMS-->
+                        <!--END: FEATURE_MENU-->
+                    </div>
+                </section>
+
+                <!--START: CATEGORY_FOOTER-->
+                <section class="category-footer">
+                    <div class="container">[CONTENT]</div>
+                </section>
+                <!--END: CATEGORY_FOOTER-->
+            </section>
+        </section>
+    </section>
+
+</section>
+
+<!--START: template_scripts-->
+<script type="text/javascript" src="/assets/templates/common-core/lib/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(function () {
+        jQuery('.homeCarousel').flexslider({
+            animation: jQuery(this).data('animation'),
+            slideshowSpeed: jQuery(this).data('slideshowSpeed'),
+            controlNav: false,
+            keyboard: false
+        });
+
+        jQuery('#carousel-sellers').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+              {
+                  breakpoint: 1024,
+                  settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3
+                  }
+              },
+              {
+                  breakpoint: 600,
+                  settings: "unslick"
+                  /*
+                  settings: {
+                      appendDots: jQuery('.TSnav'),
+                      mobileFirst: true,
+                      dots: true,
+                      infinite: true,
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+                  */
+              },
+              {
+                  breakpoint: 480,
+                  settings: "unslick"
+                  /*
+                  settings: {
+                      appendDots: jQuery('.TSnav'),
+                      mobileFirst: true,
+                      dots: true,
+                      infinite: true,
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+                  */
+              }
+            ]
+        });
+
+        var carouselWidth = $('#carousel-sellers').width();
+        var carouselPad = carouselWidth / 5;
+        $('.product-item.slick-slide').css('max-width', carouselWidth);
+        $('.product-item.slick-slide').css('padding-left', carouselPad);
+        $('.product-item.slick-slide').css('padding-right', carouselPad);
+    });
+
+</script>
+<!--END: template_scripts-->
+
+
+<!--START: template_styles-->
+<link rel="stylesheet" href="/assets/templates/common-core/lib/flexslider/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<style>
+    .TSnav {
+        position: relative;
+        height: 50px;
+    }
+    /* Arrows */
+    .slick-prev,
+    .slick-next
+    {
+        font-size: 0;
+        line-height: 0;
+
+        position: absolute;
+        top: 25%;
+
+        display: block;
+
+        width: 25px;
+        height: 40px;
+        padding: 0;
+        cursor: pointer;
+
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    .slick-prev:hover,
+    .slick-prev:focus,
+    .slick-next:hover,
+    .slick-next:focus
+    {
+        color: transparent;
+        outline: none;
+        background: transparent;
+    }
+    .slick-prev:hover:before,
+    .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before
+    {
+        opacity: 1;
+    }
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before
+    {
+        opacity: .25;
+    }
+
+    .slick-prev:before,
+    .slick-next:before
+    {
+        font-family: "fontello";
+        font-size: 40px;
+        line-height: 1;
+
+        opacity: .75;
+        color: #000;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .slick-prev
+    {
+        left: -20px;
+    }
+    [dir='rtl'] .slick-prev
+    {
+        right: -20px;
+        left: auto;
+    }
+    .slick-prev:before
+    {
+        content: '\f104';
+    }
+    [dir='rtl'] .slick-prev:before
+    {
+        content: '\f105';
+    }
+
+    .slick-next
+    {
+        right: -20px;
+    }
+    [dir='rtl'] .slick-next
+    {
+        right: auto;
+        left: -20px;
+    }
+    .slick-next:before
+    {
+        content: '\f105';
+    }
+    [dir='rtl'] .slick-next:before
+    {
+        content: '\f104';
+    }
+    @media(min-width: 1200px) {
+        .slick-prev,
+        .slick-next
+        {
+            top: 30%;
+            width: 50px;
+            height: 50px;
+        }
+        .slick-prev:before,
+        .slick-next:before
+        {
+            font-size: 50px;
+        }
+
+        .slick-prev
+        {
+            left: -50px;
+        }
+        [dir='rtl'] .slick-prev
+        {
+            right: -50px;
+            left: auto;
+        }
+
+        .slick-next
+        {
+            right: -50px;
+        }
+        [dir='rtl'] .slick-next
+        {
+            right: auto;
+            left: -50px;
+        }
+    }
+    /* Dots */
+    .slick-dotted.slick-slider
+    {
+    }
+
+    .slick-dots
+    {
+        position: absolute;
+        bottom: 100%;
+
+        display: block;
+
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        list-style: none;
+
+        text-align: center;
+    }
+    .slick-dots li
+    {
+        position: relative;
+
+        display: inline-block;
+
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+
+        cursor: pointer;
+    }
+    .slick-dots li button
+    {
+        font-size: 0;
+        line-height: 0;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+
+        cursor: pointer;
+
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    .slick-dots li button:hover,
+    .slick-dots li button:focus
+    {
+        outline: none;
+    }
+    .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before
+    {
+        opacity: 1;
+    }
+    .slick-dots li button:before
+    {
+        font-family: 'slick';
+        font-size: 20px;
+        line-height: 20px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 20px;
+        height: 20px;
+
+        content: '•';
+        text-align: center;
+
+        opacity: .25;
+        color: black;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-dots li.slick-active button:before
+    {
+        opacity: .75;
+        color: black;
+    }
+</style>
+<!--END: template_styles-->
