@@ -1,0 +1,819 @@
+{
+   "theme_name":"Kayaks Core",
+   "selected_preset":0,
+   "field_groups":[
+      {
+         "name":"Header & Body"
+      },
+      {
+         "name":"Text & Buttons"
+      },
+      {
+         "name":"Typography"
+      },
+      {
+         "name":"Products"
+      },
+      {
+         "name":"Footer"
+      }
+   ],
+   "theme_presets":[
+      {
+         "isCustom":0,
+         "name":"Default",
+         "fields":[
+            {
+               "label":"Body background color",
+               "name":"body_color",
+               "type":2,
+               "value":"a9c9cd ",
+               "group":0
+            },
+            {
+               "label":"Navigation background color",
+               "name":"nav_color",
+               "type":2,
+               "value":"3aa1c0",
+               "group":0
+            },
+            {
+               "label":"Navigation text color",
+               "name":"nav_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":0
+            },
+            {
+               "label":"Navigation icons color",
+               "name":"nav_icons_color",
+               "type":2,
+               "value":"000000",
+               "group":0
+            },
+            {
+               "label":"Headings color",
+               "name":"headings_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Body text color",
+               "name":"body_text_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Primary button color",
+               "name":"btn_color",
+               "type":2,
+               "value":"ffffff",
+               "group":1
+            },
+            {
+               "label":"Primary button border",
+               "name":"btn_border",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Primary button text color",
+               "name":"btn_text_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Secondary button color",
+               "name":"btn2_color",
+               "type":2,
+               "value":"a86447",
+               "group":1
+            },
+            {
+               "label":"Secondary button border",
+               "name":"btn2_border",
+               "type":2,
+               "value":"a86447",
+               "group":1
+            },
+            {
+               "label":"Secondary button text color",
+               "name":"btn2_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":1
+            },
+            {
+               "label":"Base font size",
+               "name":"base_font_size",
+               "type":3,
+               "value":"14",
+               "options":[
+                  {
+                     "text":"14px",
+                     "value":14
+                  },
+                  {
+                     "text":"15px",
+                     "value":15
+                  },
+                  {
+                     "text":"16px",
+                     "value":16
+                  },
+                  {
+                     "text":"17px",
+                     "value":17
+                  },
+                  {
+                     "text":"18px",
+                     "value":18
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"Heading base size",
+               "name":"heading_base_size",
+               "type":3,
+               "value":"30",
+               "options":[
+                  {
+                     "text":"24px",
+                     "value":24
+                  },
+                  {
+                     "text":"25px",
+                     "value":25
+                  },
+                  {
+                     "text":"26px",
+                     "value":26
+                  },
+                  {
+                     "text":"27px",
+                     "value":27
+                  },
+                  {
+                     "text":"28px",
+                     "value":28
+                  },
+                  {
+                     "text":"29px",
+                     "value":29
+                  },
+                  {
+                     "text":"30px",
+                     "value":30
+                  },
+                  {
+                     "text":"31px",
+                     "value":31
+                  },
+                  {
+                     "text":"32px",
+                     "value":32
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"On sale",
+               "name":"sale_text",
+               "type":2,
+               "value":"000000",
+               "group":3
+            },
+            {
+               "label":"Free shipping text",
+               "name":"free_shipping_text",
+               "type":2,
+               "value":"00a888",
+               "group":3
+            },
+            {
+               "label":"Rating stars color",
+               "name":"stars_color",
+               "type":2,
+               "value":"a86447",
+               "group":3
+            },
+            {
+               "label":"Footer color",
+               "name":"footer_color",
+               "type":2,
+               "value":"000000",
+               "group":4
+            },
+            {
+               "label":"Footer text color",
+               "name":"footer_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":4
+            }
+         ]
+      },
+      {
+         "isCustom":0,
+         "name":"Import",
+         "fields":[
+            {
+               "label":"Body background color",
+               "name":"body_color",
+               "type":2,
+               "value":"8CA098 ",
+               "group":0
+            },
+            {
+               "label":"Navigation background color",
+               "name":"nav_color",
+               "type":2,
+               "value":"2A4E53",
+               "group":0
+            },
+            {
+               "label":"Navigation text color",
+               "name":"nav_text_color",
+               "type":2,
+               "value":"CCC0AF",
+               "group":0
+            },
+            {
+               "label":"Navigation icons color",
+               "name":"nav_icons_color",
+               "type":2,
+               "value":"8CA098",
+               "group":0
+            },
+            {
+               "label":"Headings color",
+               "name":"headings_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Body text color",
+               "name":"body_text_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Primary button color",
+               "name":"btn_color",
+               "type":2,
+               "value":"96664F",
+               "group":1
+            },
+            {
+               "label":"Primary button border",
+               "name":"btn_border",
+               "type":2,
+               "value":"96664F",
+               "group":1
+            },
+            {
+               "label":"Primary button text color",
+               "name":"btn_text_color",
+               "type":2,
+               "value":"CCC0AF",
+               "group":1
+            },
+            {
+               "label":"Secondary button color",
+               "name":"btn2_color",
+               "type":2,
+               "value":"CCC0AF",
+               "group":1
+            },
+            {
+               "label":"Secondary button border",
+               "name":"btn2_border",
+               "type":2,
+               "value":"96664F",
+               "group":1
+            },
+            {
+               "label":"Secondary button text color",
+               "name":"btn2_text_color",
+               "type":2,
+               "value":"96664F",
+               "group":1
+            },
+            {
+               "label":"Base font size",
+               "name":"base_font_size",
+               "type":3,
+               "value":"14",
+               "options":[
+                  {
+                     "text":"14px",
+                     "value":14
+                  },
+                  {
+                     "text":"15px",
+                     "value":15
+                  },
+                  {
+                     "text":"16px",
+                     "value":16
+                  },
+                  {
+                     "text":"17px",
+                     "value":17
+                  },
+                  {
+                     "text":"18px",
+                     "value":18
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"Heading base size",
+               "name":"heading_base_size",
+               "type":3,
+               "value":"30",
+               "options":[
+                  {
+                     "text":"24px",
+                     "value":24
+                  },
+                  {
+                     "text":"25px",
+                     "value":25
+                  },
+                  {
+                     "text":"26px",
+                     "value":26
+                  },
+                  {
+                     "text":"27px",
+                     "value":27
+                  },
+                  {
+                     "text":"28px",
+                     "value":28
+                  },
+                  {
+                     "text":"29px",
+                     "value":29
+                  },
+                  {
+                     "text":"30px",
+                     "value":30
+                  },
+                  {
+                     "text":"31px",
+                     "value":31
+                  },
+                  {
+                     "text":"32px",
+                     "value":32
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"On sale",
+               "name":"sale_text",
+               "type":2,
+               "value":"C07F83",
+               "group":3
+            },
+            {
+               "label":"Free shipping text",
+               "name":"free_shipping_text",
+               "type":2,
+               "value":"8CA098",
+               "group":3
+            },
+            {
+               "label":"Rating stars color",
+               "name":"stars_color",
+               "type":2,
+               "value":"C07F83",
+               "group":3
+            },
+            {
+               "label":"Footer color",
+               "name":"footer_color",
+               "type":2,
+               "value":"96664F",
+               "group":4
+            },
+            {
+               "label":"Footer text color",
+               "name":"footer_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":4
+            }
+         ]
+      },
+      {
+         "isCustom":0,
+         "name":"Capcod",
+         "fields":[
+            {
+               "label":"Body background color",
+               "name":"body_color",
+               "type":2,
+               "value":"D5EAF2 ",
+               "group":0
+            },
+            {
+               "label":"Navigation background color",
+               "name":"nav_color",
+               "type":2,
+               "value":"D67174",
+               "group":0
+            },
+            {
+               "label":"Navigation text color",
+               "name":"nav_text_color",
+               "type":2,
+               "value":"D5EAF2",
+               "group":0
+            },
+            {
+               "label":"Navigation icons color",
+               "name":"nav_icons_color",
+               "type":2,
+               "value":"FFB1AB",
+               "group":0
+            },
+            {
+               "label":"Headings color",
+               "name":"headings_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Body text color",
+               "name":"body_text_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Primary button color",
+               "name":"btn_color",
+               "type":2,
+               "value":"2F4354",
+               "group":1
+            },
+            {
+               "label":"Primary button border",
+               "name":"btn_border",
+               "type":2,
+               "value":"2F4354",
+               "group":1
+            },
+            {
+               "label":"Primary button text color",
+               "name":"btn_text_color",
+               "type":2,
+               "value":"D5EAF2",
+               "group":1
+            },
+            {
+               "label":"Secondary button color",
+               "name":"btn2_color",
+               "type":2,
+               "value":"D5EAF2",
+               "group":1
+            },
+            {
+               "label":"Secondary button border",
+               "name":"btn2_border",
+               "type":2,
+               "value":"2F4354",
+               "group":1
+            },
+            {
+               "label":"Secondary button text color",
+               "name":"btn2_text_color",
+               "type":2,
+               "value":"2F4354",
+               "group":1
+            },
+            {
+               "label":"Base font size",
+               "name":"base_font_size",
+               "type":3,
+               "value":"14",
+               "options":[
+                  {
+                     "text":"14px",
+                     "value":14
+                  },
+                  {
+                     "text":"15px",
+                     "value":15
+                  },
+                  {
+                     "text":"16px",
+                     "value":16
+                  },
+                  {
+                     "text":"17px",
+                     "value":17
+                  },
+                  {
+                     "text":"18px",
+                     "value":18
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"Heading base size",
+               "name":"heading_base_size",
+               "type":3,
+               "value":"30",
+               "options":[
+                  {
+                     "text":"24px",
+                     "value":24
+                  },
+                  {
+                     "text":"25px",
+                     "value":25
+                  },
+                  {
+                     "text":"26px",
+                     "value":26
+                  },
+                  {
+                     "text":"27px",
+                     "value":27
+                  },
+                  {
+                     "text":"28px",
+                     "value":28
+                  },
+                  {
+                     "text":"29px",
+                     "value":29
+                  },
+                  {
+                     "text":"30px",
+                     "value":30
+                  },
+                  {
+                     "text":"31px",
+                     "value":31
+                  },
+                  {
+                     "text":"32px",
+                     "value":32
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"On sale",
+               "name":"sale_text",
+               "type":2,
+               "value":"D67174",
+               "group":3
+            },
+            {
+               "label":"Free shipping text",
+               "name":"free_shipping_text",
+               "type":2,
+               "value":"2F4354",
+               "group":3
+            },
+            {
+               "label":"Rating stars color",
+               "name":"stars_color",
+               "type":2,
+               "value":"D67174",
+               "group":3
+            },
+            {
+               "label":"Footer color",
+               "name":"footer_color",
+               "type":2,
+               "value":"2F4354",
+               "group":4
+            },
+            {
+               "label":"Footer text color",
+               "name":"footer_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":4
+            }
+         ]
+      },
+      {
+         "isCustom":1,
+         "name":"Custom",
+         "fields":[
+            {
+               "label":"Body background color",
+               "name":"body_color",
+               "type":2,
+               "value":"a9c9cd ",
+               "group":0
+            },
+            {
+               "label":"Navigation background color",
+               "name":"nav_color",
+               "type":2,
+               "value":"3aa1c0",
+               "group":0
+            },
+            {
+               "label":"Navigation text color",
+               "name":"nav_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":0
+            },
+            {
+               "label":"Navigation icons color",
+               "name":"nav_icons_color",
+               "type":2,
+               "value":"000000",
+               "group":0
+            },
+            {
+               "label":"Headings color",
+               "name":"headings_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Body text color",
+               "name":"body_text_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Primary button color",
+               "name":"btn_color",
+               "type":2,
+               "value":"ffffff",
+               "group":1
+            },
+            {
+               "label":"Primary button border",
+               "name":"btn_border",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Primary button text color",
+               "name":"btn_text_color",
+               "type":2,
+               "value":"000000",
+               "group":1
+            },
+            {
+               "label":"Secondary button color",
+               "name":"btn2_color",
+               "type":2,
+               "value":"a86447",
+               "group":1
+            },
+            {
+               "label":"Secondary button border",
+               "name":"btn2_border",
+               "type":2,
+               "value":"a86447",
+               "group":1
+            },
+            {
+               "label":"Secondary button text color",
+               "name":"btn2_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":1
+            },
+            {
+               "label":"Base font size",
+               "name":"base_font_size",
+               "type":3,
+               "value":"14",
+               "options":[
+                  {
+                     "text":"14px",
+                     "value":14
+                  },
+                  {
+                     "text":"15px",
+                     "value":15
+                  },
+                  {
+                     "text":"16px",
+                     "value":16
+                  },
+                  {
+                     "text":"17px",
+                     "value":17
+                  },
+                  {
+                     "text":"18px",
+                     "value":18
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"Heading base size",
+               "name":"heading_base_size",
+               "type":3,
+               "value":"30",
+               "options":[
+                  {
+                     "text":"24px",
+                     "value":24
+                  },
+                  {
+                     "text":"25px",
+                     "value":25
+                  },
+                  {
+                     "text":"26px",
+                     "value":26
+                  },
+                  {
+                     "text":"27px",
+                     "value":27
+                  },
+                  {
+                     "text":"28px",
+                     "value":28
+                  },
+                  {
+                     "text":"29px",
+                     "value":29
+                  },
+                  {
+                     "text":"30px",
+                     "value":30
+                  },
+                  {
+                     "text":"31px",
+                     "value":31
+                  },
+                  {
+                     "text":"32px",
+                     "value":32
+                  }
+               ],
+               "group":2
+            },
+            {
+               "label":"On sale",
+               "name":"sale_text",
+               "type":2,
+               "value":"000000",
+               "group":3
+            },
+            {
+               "label":"Free shipping text",
+               "name":"free_shipping_text",
+               "type":2,
+               "value":"00a888",
+               "group":3
+            },
+            {
+               "label":"Rating stars color",
+               "name":"stars_color",
+               "type":2,
+               "value":"a86447",
+               "group":3
+            },
+            {
+               "label":"Footer color",
+               "name":"footer_color",
+               "type":2,
+               "value":"000000",
+               "group":4
+            },
+            {
+               "label":"Footer text color",
+               "name":"footer_text_color",
+               "type":2,
+               "value":"ffffff",
+               "group":4
+            }
+         ]
+      }
+   ]
+}
