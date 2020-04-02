@@ -2,6 +2,21 @@
 ** Bootstrap over-rides
 */
 
+html, body {
+  height: 100%;
+}
+body, .full-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.page-content, .main-block {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: #[body_color];
