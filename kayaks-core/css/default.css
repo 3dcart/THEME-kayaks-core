@@ -5,12 +5,15 @@
 html, body {
   height: 100%;
 }
-body, .full-content {
+body {
   display: flex;
   height: 100%;
   flex-direction: column;
 }
-.page-content, .main-block {
+.full-content {
+  background: #fff;
+}
+.page-content, .main-block, .full-content {
   flex: 1 0 auto;
 }
 footer {
@@ -374,6 +377,8 @@ h1 {
 .site-header {
     padding: 15px 0;
     background: #fff;
+    float: left;
+    width: 100%;
 }
 @media(max-width: 767px) {
     .site-header {
@@ -399,6 +404,7 @@ h1 {
     position: relative;
     border: 1px solid #000;
     -webkit-box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.50);
+
     -moz-box-shadow:    -1px 1px 1px 0px rgba(0, 0, 0, 0.50);
     box-shadow:         -1px 1px 1px 0px rgba(0, 0, 0, 0.50);
 }
