@@ -19,7 +19,18 @@ body {
 footer {
   flex-shrink: 0;
 }
-
+.homepage-blog-posts .post-image-container img {
+    height: 218px;
+}
+.product-items.productList .product-item .img a {
+    position: initial;
+}
+@media (max-width: 991px){
+.product-items.productList .product-item .img {
+    padding-right: 0;
+    width: 32%;
+}
+}
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: #a9c9cd;
