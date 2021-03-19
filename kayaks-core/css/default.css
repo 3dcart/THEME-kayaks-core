@@ -10,6 +10,21 @@ body {
   height: 100%;
   flex-direction: column;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .full-content {
   background: #fff;
 }
@@ -152,7 +167,7 @@ h1 {
 .btn-default {
     border-color: #3aa1c0;
     background-color: #3aa1c0;
-    color: #faec6f;
+    color: #000;
 }
 .btn-default:hover,
 .btn-default:focus, 
@@ -354,7 +369,7 @@ h1 {
     padding: 0;
 }
 .top-nav ul li a {
-    color: #fff;
+    color: #000;
     padding:2px 6px;
 }
 .top-nav ul li a:hover {
@@ -730,7 +745,7 @@ span.freeshipping {
 .product-item .price {
     font-size: 16px;
     font-weight: bold;
-    color: #989898;
+    color: #575757;
 }
 .product-item .on-sale-badge {
     border-radius: 0;
@@ -742,10 +757,6 @@ span.freeshipping {
     top: 1px;
     left: 16px;
     background: transparent;
-    font-size: 0px;
-   
-   	width: 0;
-	height: 0;
 	border-top: 85px solid #f22d2d;
 	border-right: 85px solid transparent;
 
@@ -760,7 +771,7 @@ span.freeshipping {
         left:3px;
         font-size: 23px;
         font-weight: 700;
-        color: #fff;
+        color: #000;
         transform: rotate(-45deg);
         transform-origin: 0 100%;
         width: 120px;
@@ -832,9 +843,9 @@ span.freeshipping {
     background-color: #fff;
     padding: 0px 0 0 0;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     text-align: center;
-    color: #3aa1c0;
+    color: #000;
     font-size: 28px;
     line-height: 1.75;
     font-weight: 700;
@@ -844,7 +855,7 @@ span.freeshipping {
     position: relative;
     border: none;
 }
-    .products-section h2 span{
+    .products-section h2 span,.products-section h1 span{
         background: transparent;
         display: inline-block;
         padding: 0 20px;

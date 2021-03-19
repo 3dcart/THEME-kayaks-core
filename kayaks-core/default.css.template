@@ -775,7 +775,7 @@ span.freeshipping {
         left:3px;
         font-size: 23px;
         font-weight: 700;
-        color: #000;
+        color: #fff;
         transform: rotate(-45deg);
         transform-origin: 0 100%;
         width: 120px;
@@ -847,7 +847,7 @@ span.freeshipping {
     background-color: #fff;
     padding: 0px 0 0 0;
 }
-.products-section h2,.products-section h1 {
+.products-section h2 {
     text-align: center;
     color: #[headings_color];
     font-size: 28px;
@@ -859,7 +859,7 @@ span.freeshipping {
     position: relative;
     border: none;
 }
-    .products-section h2 span,.products-section h1 span{
+    .products-section h2 span{
         background: transparent;
         display: inline-block;
         padding: 0 20px;
